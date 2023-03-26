@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom"
 import HomeImage from "./components/home/HomeImage";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import Category from "./components/category/Category";
 import ProductDisplay from "./components/products/ProductDisplay";
 import { productList } from "./redux/product/productAction";
 import PageNotFound from "./components/not found/PageNotFound";
@@ -28,7 +27,6 @@ function App() {
             <>
               <Navbar />
               <HomeImage />
-              <Category />
               <Footer />
             </>
           }
